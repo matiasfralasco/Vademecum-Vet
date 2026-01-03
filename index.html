@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Vademécum Vet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <header>
+            <h1>Vademécum 🐮</h1>
+            <p>Guía Farmacológica de Bolsillo</p>
+        </header>
+
+        <div class="search-box">
+            <span class="material-icons">search</span>
+            <input type="text" id="buscador" placeholder="Buscar droga (ej: Melo...)" onkeyup="filtrarDrogas()">
+        </div>
+
+        <div id="lista-drogas" class="lista">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
